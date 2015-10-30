@@ -1,0 +1,136 @@
+/* Index.html */
+.custom-menuLateral{
+	position: absolute;
+	z-index: 2;
+	width: 60px;
+	height: 60px;
+	padding:10px;
+	background: rgba(255,255,255,0);
+}
+.custom-menuLateral:focus,
+.custom-menuLateral:active,
+.custom-menuLateral:hover{
+	background: rgba(255,255,255,0);
+}
+.custom-fontWhite{
+	color:#fff;
+}
+.custom-fontBlack{
+	color:#000;
+}
+  background-color: #8cc14c;
+  color: #ffffff;
+}
+/* Boton succes personalizado */
+/* Hover */
+.custom-button-success:hover,
+.custom-button-success:focus {
+  background-color: #8ec73b;
+  color: #ffffff;
+}
+/* Active */
+.custom-button-success:active,
+.custom-button-success.custom-active {
+  background-color: #72ae41;
+  color: #ffffff;
+}
+
+/* arquitecturaTropical.html */
+.navbar-inverse {
+  background-color: #3f3e3e;
+  border: 0px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,.5);
+}
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #83aa3f;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #000;
+  background-color: #8ec73b;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #333;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+.cover-at{
+	padding-top: 75px;
+}
+.fontShadow{
+  text-shadow:1px 1px 4px rgba(0,0,0,0.5);
+}
+.text-muted2{
+  color:#aaa;
+}
+.body-content{
+  background:#eee url(../images/textura.png);
+}
+.thumbnail{
+  border:0;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+  width: 100%;
+}
+.footer{
+  min-height:500px;
+  padding-top:100px;
+}
+.uk-tab > .uk-active{
+  background: transparent;
+}
+@font-face{
+	font-family: 'SSP_Light' ;
+	src: url(fonts/SourceSansPro-Light.otf);
+}
+@font-face{
+  font-family: 'SSP_Reg';
+  src:url(fonts/SourceSansPro-Regular.otf);
+}
+*{
+	font-family: 'SSP_Light';
+}
+b{
+  font-family: 'SSP_Reg';
+}
+h1,h2,h3,h4,h5,h6{
+  color:#577a18;
+  font-family: 'SSP_Reg';
+}
